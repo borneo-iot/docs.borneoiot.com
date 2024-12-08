@@ -6,8 +6,6 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-import sphinx_rtd_theme
-
 project = 'BorneoIoT Documentation'
 copyright = '2024, Li Wei'
 author = 'Li Wei'
@@ -26,5 +24,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = "sphinx_rtd_theme"
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_static_path = ['_static']
+
+
+html_static_path = ['_static']
+html_css_files = [
+    'custom.css',
+]
