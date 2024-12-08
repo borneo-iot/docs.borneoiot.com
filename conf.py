@@ -13,7 +13,8 @@ author = 'Li Wei'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = ["sphinx_rtd_dark_mode"]
+
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -31,3 +32,5 @@ html_static_path = ['_static']
 html_css_files = [
     'custom.css',
 ]
+
+default_dark_mode = False
