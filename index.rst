@@ -12,6 +12,18 @@ documentation for details.
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :hidden:
 
+   introduction/index.rst
+
+
+
+
+Indices and Tables
+******************
+
+* :ref:`glossary`
+* :ref:`genindex`
+
+.. _GitHub repo: https://github.com/oldrev/borneo
