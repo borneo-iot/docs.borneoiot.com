@@ -6,8 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'BorneoIoT Documentation'
-copyright = '2024, Li Wei'
+project = 'BorneoIoT Project'
+copyright = '2024, Li Wei. All rights reserved.'
 author = 'Li Wei'
 
 # -- General configuration ---------------------------------------------------
