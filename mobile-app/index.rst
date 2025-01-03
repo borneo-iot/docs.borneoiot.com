@@ -1,2 +1,0 @@
-BorneoIoT Mobile App
-####################

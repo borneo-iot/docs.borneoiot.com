@@ -4,7 +4,7 @@ name: Deploy Sphinx site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["master"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -35,7 +35,7 @@ jobs:
     steps:
       - name: Install dependencies
         run: |
-          pip install sphinx sphinx_rtd_theme myst_parser sphinx-rtd-dark-mode
+          pip install sphinx sphinx-book-theme myst-parser
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -48,14 +48,14 @@ jobs:
           sphinx-build -b html . _build/html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}        
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         with:
           path: ./_build/html
 
   # Deployment job
   deploy:
     environment:
-      name: github-pages      
+      name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
