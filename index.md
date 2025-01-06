@@ -28,6 +28,7 @@ mobile-app/index
 hardwares/index
 protocol/index
 faq
+licensing
 ```
 
 
