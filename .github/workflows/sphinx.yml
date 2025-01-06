@@ -35,7 +35,7 @@ jobs:
     steps:
       - name: Install dependencies
         run: |
-          pip install sphinx sphinx-book-theme myst-parser
+          pip install sphinx sphinx-wagtail-theme myst-parser
       - name: Checkout
         uses: actions/checkout@v4
         with:

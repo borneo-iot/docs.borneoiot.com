@@ -4,9 +4,11 @@ title: The Borneo IoT Project
 
 # Welcome!
 
-Welcome to the online documentation of Borneo IoT Project!
+![banner](images/borneo-hero.jpg)
 
-Borneo IoT project is a commercial-grade, highly customizable open-source smart WiFi aquarium LED PWM controller and mobile App. More than that, the Borneo IoT project also includes a 63W 5-color channel LED product as reference design.
+Welcome to the online documentation of Borneo-IoT Project!
+
+Borneo-IoT project is a commercial-grade, highly customizable open-source smart WiFi aquarium LED PWM controller and mobile App. More than that, the Borneo IoT project also includes a 63W 5-color channel LED product as reference design.
 
 # Quick Links
 
@@ -16,13 +18,16 @@ Borneo IoT project is a commercial-grade, highly customizable open-source smart 
 # Contents
 
 ```{toctree}
-:maxdepth: 1
+:maxdepth: 3
 :caption: Contents
 
+introduction
 getting-started/index
 user-guides/index
 mobile-app/index
 hardwares/index
+protocol/index
+faq
 ```
 
 

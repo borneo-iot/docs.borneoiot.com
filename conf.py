@@ -6,14 +6,14 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'BorneoIoT Project'
+project = 'Borneo-IoT Project'
 copyright = '2024, Li Wei. All rights reserved'
 author = 'Li Wei'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+extensions = ['myst_parser', 'sphinx_wagtail_theme', ]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -23,15 +23,15 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = "sphinx_book_theme"
-html_static_path = ['_static']
-
-
+html_theme = 'sphinx_wagtail_theme'
 html_static_path = ['_static']
 html_css_files = [
     'custom.css',
 ]
-html_logo = "_static/borneo-wide-logo.png"
+
+html_logo = "_static/borneo-logo.png"
+html_show_copyright = True
+html_show_sphinx = False
 
 default_dark_mode = False
 
@@ -58,18 +58,23 @@ myst_enable_extensions = [
     "tasklist",
 ]
 
-html_theme_options = {
-    "repository_url": "https://github.com/borneo-iot/docs.borneoiot.com",
-    "repository_branch": "master",
-    "use_edit_page_button": True,
-    "use_source_button": True,
-    "use_issues_button": True,
-    "use_repository_button": True,
-    "use_download_button": True,
-    #"use_sidenotes": True,
-    "show_toc_level": 2,
-    "logo": {
-        #"image_dark": "_static/logo-wide-dark.svg",
-        # "text": html_title,  # Uncomment to try text with logo
-    }
-}
+
+html_theme_options = dict(
+    project_name = "Borneo-IoT Project",
+    logo = "borneo-logo.png",
+    logo_alt = "Wagtail",
+    logo_height = 59,
+    logo_url = "/",
+    logo_width = 45,
+    github_url = "https://github.com/borneo-iot/docs.borneoiot.com/",
+
+    header_links = "Website|https://www.borneoiot.com, GitHub Project|https://github.com/oldrev/borneo",
+
+    footer_links = "",
+    #, ",".join([
+    #    "About Us|http://example.com/",
+    #    "Contact|http://example.com/contact",
+    #    "Legal|http://example.com/dev/null",
+    #]),
+
+)
