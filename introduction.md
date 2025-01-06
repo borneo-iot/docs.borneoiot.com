@@ -15,3 +15,20 @@ In the future, The Borneo-IoT Project will implement the following new hardwares
 - A multi-channel doser.
 - A water circulation pump.
 - And more.
+
+## The directory structure of the Git repository
+
+- `client/`: Mobile app source code
+- `fw/`: Firmware source code
+    - `scripts`: Related Python scripts, including the device Python client library
+    - `cmake`: CMake scripts
+    - `components`: Common ESP-IDF component source code
+    - `lyfi`: LED controller firmware-related source code
+    - `doser`: Dosing pump firmware-related source code (under development)
+- `hw/`: Circuit design source files
+    - `blc05mk3`: 5-channel LED controller core board design
+    - `blc05mk3-horizontal`: 5-channel LED controller core board with horizontal pin headers
+    - `blb08103`: 5-channel 63W LED lamp aluminum substrate design
+    - `3d-models`: Exported STEP format 3D models of the core board
+    - `datasheets`: The hardware specifications in PDF format
+- `tools/`: Related scripts and tools
