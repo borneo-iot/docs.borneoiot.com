@@ -15,6 +15,12 @@ Borneo-IoT project is a commercial-grade, highly customizable open-source smart 
 [Hardware datasheets](https://github.com/oldrev/borneo/tree/master/hw/datasheets)
 : The hardware specifications in PDF format3.
 
+# Copyright
+
+This document is Copyright © 2024-2025 by Li Wei. You may distribute it and/or modify it under the terms of the GNU General Public License, version 3 or later (GPLv3+).
+
+All trademarks within this guide belong to their legitimate owners.
+
 # Contents
 
 ```{toctree}
