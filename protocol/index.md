@@ -9,6 +9,7 @@ All CoAP-enabled devices share several common interfaces, such as retrieving dev
 :maxdepth: 2
 provisioning
 mdns
+mqtt
 coap
 lyfi
 ```
