@@ -12,9 +12,9 @@
 * Manual control mode
 * Quick preview of multi-segment dimming
 * Easy setup
-* And much more
 * Dark theme
 * Multi-language support
+* And much more
 
 :::{note}
 The AppStore/PlayStore and APK downloads are not available yet, you need to compile and run from the source code.
