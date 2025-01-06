@@ -19,7 +19,6 @@ Borneo-IoT project is a commercial-grade, highly customizable open-source smart 
 
 ```{toctree}
 :maxdepth: 3
-:caption: Contents
 
 introduction
 getting-started/index
