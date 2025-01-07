@@ -23,7 +23,7 @@ extensions = [
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-googleanalytics_id = "G-YQRBDQ6X39"
+googleanalytics_id = "G-L9QEFR1ELW"
 googleanalytics_enabled = True
 
 # -- Options for HTML output -------------------------------------------------
