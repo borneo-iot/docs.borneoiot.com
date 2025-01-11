@@ -2,3 +2,8 @@
 .bg-primary {
     background-color: #3d3557 !important;
 }
+
+video {
+    display: block;
+    width: 100%;
+}

@@ -35,6 +35,10 @@ html_css_files = [
     'custom.css',
 ]
 
+html_js_files = [
+    'custom.js',
+]
+
 html_logo = "_static/borneo-logo.png"
 html_show_copyright = True
 html_show_sphinx = False

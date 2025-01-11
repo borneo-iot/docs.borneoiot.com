@@ -9,16 +9,24 @@ The firmware is developed using Espressif's ESP-IDF framework. Please refer to t
 ### Building
 
 Once the environment is ready, open ESP-IDF 5.x PowerShell or CMD, navigate to the `fw/lyfi` directory, and execute:
+
 ```bash
 idf.py build
 ```
+
 to start the firmware build process.
+
+![](./videos/fw-build.mp4)
+
 
 ## Flashing firmware
 
 Connect the device and execute the following command:
+
 ```bash
 idf.py flash -p <SERIAL_PORT_NAME>
 ```
+
 to flash the firmware to the module's MCU. You can omit the `-p` parameter to let the `idf.py` tool automatically detect the serial port.
 
+![](./videos/fw-flashing.mp4)
