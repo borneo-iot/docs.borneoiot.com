@@ -10,7 +10,7 @@
 The Appearance of BLC05MK3 Module
 ```
 
-Please read the following datasheet(PDF) for more information about the hardware.
+Please checkout the following datasheets for more information about the hardware.
 
-- [English](https://github.com/oldrev/borneo/blob/master/hw/datasheets/blc05mk3.pdf)
-- [中文](https://github.com/oldrev/borneo/blob/master/hw/datasheets/blc05mk3.zh.pdf)
+- [English `blc05mk3.pdf`](https://github.com/oldrev/borneo/blob/master/hw/datasheets/blc05mk3.pdf)
+- [中文 `blc05mk3.zh.pdf`](https://github.com/oldrev/borneo/blob/master/hw/datasheets/blc05mk3.zh.pdf)
