@@ -4,11 +4,11 @@
 
 ### Environment Setup
 
-First, refer to the official Google Flutter documentation to set up the development environment, ensuring that the flutter command is added to the `%PATH%` or `$PATH` environment variable.
+First, please refer to the official Google [Flutter documentation](https://docs.flutter.dev/get-started) to set up the development environment, ensuring that the `flutter` command is added to the `%PATH%` or `$PATH` environment variable.
 
 ### Building and Running
 
-Prepare a mobile emulator or connect a real device, navigate to the `client` directory, and for Android devices, execute:
+Prepare a mobile emulator or connect a real device, navigate to the `client` directory, and execute:
 
 ```bash
 flutter pub get
