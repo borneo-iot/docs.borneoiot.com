@@ -9,19 +9,25 @@
 * ESPTouch protocol based WiFi provisioning
 * Automated device discovery using mDNS/Zeroconf
 * Smart LED control functions:
-* Multi-segment dimming for sunrise and sunset simulation
-* Manual control mode
-* Quick preview of multi-segment dimming
-* Easy setup
+    - Multi-segment dimming for sunrise and sunset simulation
+    - Manual control mode
+    - Quick preview of multi-segment dimming
+    - Easy setup
 * Dark theme
 * Multi-language support
-* And much more
+* And more
 
 :::{note}
 The AppStore/PlayStore and APK downloads are not available yet, you need to compile and run from the source code.
 :::
 
 [^ios-macos]: I do not own any Apple devices, so iOS and MacOS support is in theory and untested.
+
+## A Short Demo
+
+:::{iframe} https://youtube.com/shorts/Z78nOzLQvq0?si=41KZbSmR6HSxxCPR
+:height: 50%
+:::
 
 ## Screenshots
 
