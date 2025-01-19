@@ -25,7 +25,7 @@ The AppStore/PlayStore and APK downloads are not available yet, you need to comp
 
 ## A Short Demo
 
-:::{iframe} https://youtube.com/shorts/Z78nOzLQvq0?si=41KZbSmR6HSxxCPR
+:::{iframe} https://youtube.com/shorts/Z78nOzLQvq0
 :height: 50%
 :::
 
