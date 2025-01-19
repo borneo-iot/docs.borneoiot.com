@@ -23,11 +23,9 @@ The AppStore/PlayStore and APK downloads are not available yet, you need to comp
 
 [^ios-macos]: I do not own any Apple devices, so iOS and MacOS support is in theory and untested.
 
-## A Short Demo
+## Videos
 
-:::{iframe} https://youtube.com/shorts/Z78nOzLQvq0
-:height: 50%
-:::
+* A short demo on [YouTube](https://youtube.com/shorts/Z78nOzLQvq0).
 
 ## Screenshots
 
