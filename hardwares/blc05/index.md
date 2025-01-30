@@ -1,9 +1,9 @@
 (blc05-hardware)=
 # BLC05MK3
 
-```{figure} ./images/blc05mk3-render.jpg
+```{figure} ./images/blc05.jpg
 :name: blc05mk3-appearance
-:alt: BLC05MK3 Appearance
+:alt: BLC05MK3/REV1 Module Appearance
 :align: center
 :width: 50%
 
