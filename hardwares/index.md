@@ -2,6 +2,6 @@
 
 ```{toctree}
 :maxdepth: 1
-blc05/index
+buce/index
 blb08103/index
 ```

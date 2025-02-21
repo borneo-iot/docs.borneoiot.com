@@ -4,7 +4,7 @@
 
 ### Where can I change the I/O's so the code works with my particular board?
 
-First, make a copy of the directory `fw\lyfi\boards\blc05emk1`, let's say `fw\lyfi\boards\myboard`.
+First, make a copy of the directory `fw\lyfi\boards\blc06`, let's say `fw\lyfi\boards\myboard`.
 
 Then, open the `fw\lyfi\boards\myboard\sdkconfig` file using a text editor. Make sure to modify the first line, change `CONFIG_BORNEO_BOARD_ID=` to `CONFIG_BORNEO_BOARD_ID="myboard"`.
 
