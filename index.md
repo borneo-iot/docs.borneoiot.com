@@ -58,6 +58,7 @@ user-guides/index
 mobile-app/index
 hardwares/index
 protocol/index
+borneopy/index
 faq
 licensing
 ```

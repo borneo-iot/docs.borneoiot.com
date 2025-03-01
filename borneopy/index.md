@@ -1,4 +1,8 @@
-(mobile-app)=
-# `Borneo.py`: The Client Library for Borneo-IoT Devices
+(borneopy)=
+# Python Client Library
 
-TBD.
+```{toctree}
+:maxdepth: 2
+esptouch
+lyfi
+```
