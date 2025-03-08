@@ -14,7 +14,7 @@ After completing the installation and configuration, try building the `hello_wor
 
 First, go to Espressif's [official website](https://dl.espressif.com/dl/esp-idf/) to download the ESP-IDF SDK installer, which includes the ESP-IDF framework, GCC compiler, and all other tools you need.
 
-It is recommended to download the Offline Installer without Espressif-IDF since we don't use it.
+It is recommended to download the Offline Installer without Espressif-IDE since we don't use it.
 
 #### Linux
 
