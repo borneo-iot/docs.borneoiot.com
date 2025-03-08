@@ -30,6 +30,11 @@ idf.py build
 
 to start the firmware build process.
 
+:::{warning}
+Do not use `idf.py menuconfig` as it may disrupt the modularized board definitions of this project.
+:::
+
+
 ![](./videos/fw-build.mp4)
 
 
