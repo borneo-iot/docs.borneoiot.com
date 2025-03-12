@@ -4,6 +4,8 @@ TBD.
 
 ## Usage
 
+### Example of getting status and information from a LyFi device
+
 ```python
 import asyncio
 from pprint import pprint

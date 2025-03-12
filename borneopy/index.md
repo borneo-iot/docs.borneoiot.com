@@ -1,7 +1,7 @@
 (borneopy)=
-# Python Client Library
+# Python API
 
-This project provides an open-source Python client library for device communication, which can be used for debugging, testing, or integrating devices with other automation systems, such as Home Assistant.
+This project provides an open-source Python client API library for device communication, which can be used for debugging, testing, or integrating devices with other automation systems, such as Home Assistant.
 
 ## Installation
 

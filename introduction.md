@@ -19,7 +19,7 @@ In the future, The Borneo-IoT Project will implement the following new hardwares
 ## The directory structure of the Git repository
 
 - `client/`: Mobile app source code
-- `borneopy/`: A open-source Python client library for devices under the Borneo-IoT Project
+- `borneopy/`: A open-source Python API library for devices under the Borneo-IoT Project
 - `fw/`: Firmware source code
     - `scripts`: Related Python scripts
     - `cmake`: CMake scripts

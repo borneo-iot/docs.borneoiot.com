@@ -18,11 +18,11 @@ It is recommended to download the Offline Installer without Espressif-IDE since 
 
 #### Linux
 
-TBD
+Espressif provides [comprehensive documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/linux-macos-setup.html). Please refer to the documentation for more details.
 
 ### Building
 
-Once the environment is ready, open ESP-IDF 5.x PowerShell or CMD, navigate to the `fw/lyfi` directory, and execute:
+Once the environment is ready, open ESP-IDF 5.x CLI Terminal, navigate to the `fw/lyfi` directory, and execute:
 
 ```bash
 idf.py build

@@ -1,6 +1,6 @@
 # Prerequisites
 
-The Borneo IoT project using the following open-source tools (and/or) and frameworks for development:
+The Borneo IoT project using the following open-source tools and frameworks for development:
 
 * Circuit schematics and PCBs are designed with [Horizon EDA](https://horizon-eda.org).
 * Mechanical and structural design is designed using [FreeCAD](https://www.freecad.org).
