@@ -24,7 +24,7 @@ Interested? Please follow the documentation below to learn how to DIY your own W
 :::{grid-item-card} {octicon}`book;1.5em;sd-mr-1` Hardware Datasheets
 The hardware specifications in PDF format.
 +++
-[View/download »](https://github.com/oldrev/borneo/tree/master/hw/datasheets)
+[View/download »](https://github.com/borneo-iot/borneo/tree/master/hw/datasheets)
 :::
 
 :::{grid-item-card} {octicon}`device-mobile;1.5em;sd-mr-1` Mobile App

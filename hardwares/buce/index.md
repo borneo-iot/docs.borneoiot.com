@@ -48,4 +48,4 @@ With multi-segment dimming capabilities, Buce can simulate natural daylight tran
 
 Please checkout the following datasheets for more information about the hardware.
 
-- Buce (Model BLC06MK1) Datasheet: [`blc06mk1.pdf`](https://github.com/oldrev/borneo/blob/master/hw/datasheets/blc06mk1.pdf)
+- Buce (Model BLC06MK1) Datasheet: [`blc06mk1.pdf`](https://github.com/borneo-iot/borneo/blob/master/hw/datasheets/blc06mk1.pdf)

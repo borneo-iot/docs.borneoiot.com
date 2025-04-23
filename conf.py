@@ -78,7 +78,7 @@ html_theme_options = dict(
     logo_width = 45,
     github_url = "https://github.com/borneo-iot/docs.borneoiot.com/",
 
-    header_links = "Website|https://www.borneoiot.com, GitHub Project|https://github.com/oldrev/borneo",
+    header_links = "Website|https://www.borneoiot.com, GitHub Project|https://github.com/borneo-iot/borneo",
 
     footer_links = "",
     #, ",".join([
