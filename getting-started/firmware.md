@@ -25,7 +25,7 @@ Espressif provides [comprehensive documentation](https://docs.espressif.com/proj
 Once the environment is ready, open ESP-IDF 5.x CLI Terminal, navigate to the `fw/lyfi` directory, and execute:
 
 ```bash
-idf.py build
+idf.py build -DPRODUCT_ID=bst/blc06mk1
 ```
 
 to start the firmware build process.
