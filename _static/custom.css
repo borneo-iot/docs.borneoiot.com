@@ -7,3 +7,11 @@ video {
     display: block;
     width: 100%;
 }
+
+.pdf-embed {
+    width: 100%;
+    aspect-ratio: 210 / 297;
+    max-height: 80vh;
+    border: 1px solid #ccc;
+    display: block;
+}
