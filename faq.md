@@ -2,6 +2,14 @@
 
 ## Hardware and Firmware
 
+### Where the hell are your open-source BoM, Gerbers, and schematics?
+
+The project's PCB design uses [Horizon EDA](https://horizon-eda.org).
+
+After installation, you can open the `.hprj` file and export the BoM and Gerber files yourself.
+
+---
+
 ### Where can I change the I/O's so the code works with my particular board?
 
 First, make a copy of the directory `fw/lyfi/boards/bst/blc06mk1`, let's say `fw/lyfi/boards/me/myboard`.
