@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Borneo-IoT Project'
-copyright = '2024-2025, Wei Li. All rights reserved'
+copyright = '2024-2025, Yunnan BinaryStars Technologies, Co., Ltd. All rights reserved.'
 author = 'Wei Li'
 
 # -- General configuration ---------------------------------------------------

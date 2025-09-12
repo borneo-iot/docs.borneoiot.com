@@ -43,7 +43,7 @@ This document is currently a work in progress.
 
 # Copyright
 
-This document is Copyright © 2024-2025 by Li Wei. You may distribute it and/or modify it under the terms of the GNU General Public License, version 3 or later (GPLv3+).
+This document is Copyright © by Yunnan BinaryStars Technologies, Co., Ltd. You may distribute it and/or modify it under the terms of the GNU General Public License, version 3 or later (GPLv3+).
 
 All trademarks within this guide belong to their legitimate owners.
 
