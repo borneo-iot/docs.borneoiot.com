@@ -1,11 +1,11 @@
 # Hardware
 
-The hardware design uses the open-source [Horizon EDA](https://horizon-eda.org). After installation, open the corresponding `.hprj` project file in the directory.
+The hardware design is created with the open-source Horizon EDA ([horizon-eda.org](https://horizon-eda.org)). After installing Horizon EDA, open the corresponding `.hprj` project file in this directory.
 
-Note that the Buce module of this project requires a 0.5" (1.27mm) pitch 6-Pin programming clip, or you can also use a general ESP32-C3 development board.
+The Buce module in this project requires a 0.5" (1.27 mm) pitch 6-pin programming clip. Alternatively, you can use a general ESP32-C3 development board.
 
 :::{note}
-Using a development board is only for initial firmware running experience. Apart from WiFi network connection, output dimming PWM signals, and fan PWM signals, all other functionalities require support from the peripheral circuits of the custom PCB in this project.
+Using a third-party development board such as the [XIAO-ESP32C3](xiaoc3-hardware) is intended only for initial firmware testing. Except for Wi‑Fi connectivity, LED dimming PWM outputs, and the fan PWM output, other features depend on the peripheral circuits on the custom PCB used in this project.
 :::
 
 
