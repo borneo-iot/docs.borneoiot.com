@@ -1,9 +1,11 @@
 (xiaoc3-hardware)=
-# Seeed XIAO-ESP32-C3
+# Seeed XIAO-ESP32C3 Module
 
 ## Introduction
 
-To make it easier for users who want to quickly test our firmware and the [mobile app](mobile-app), we provide a firmware build that supports the [Seeed XIAO-ESP32C3 module](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started). You can flash the firmware over the module's USB-OTG interface and control it with our mobile app. Note that because the XIAO-ESP32C3 lacks the external peripherals present on our dedicated controller, supported hardware features are limited to the following:
+To make it easier for users who want to quickly test our firmware and the [mobile app](mobile-app), we provide a firmware profile that supports the [Seeed XIAO-ESP32C3 module](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started). You can flash the firmware over the module's USB-OTG interface and control it with our mobile app. 
+
+Note that because the XIAO-ESP32C3 lacks the external peripherals present on our dedicated controller, supported hardware features are limited to the following:
 
 1. **6 independent LED PWM channels**: 6 separate LED PWM dimming channels. Your LED driver circuit should include pull-down resistors to avoid large inrush currents at power-up.
 2. **Fan PWM output**: A PWM output for fan. Because the NTC thermistor support circuit is not present, you can only set the fan PWM duty manually in the app; the PID closed-loop automatic fan-speed control provided by our dedicated controller is not available.
