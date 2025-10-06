@@ -2,9 +2,9 @@
 title: The Borneo IoT Project
 ---
 
-# Welcome!
-
 ![banner](images/borneo-hero.jpg)
+
+# Welcome!
 
 Welcome to the online documentation of Borneo-IoT Project!
 

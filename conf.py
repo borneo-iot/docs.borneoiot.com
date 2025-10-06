@@ -39,7 +39,7 @@ html_js_files = [
     'custom.js',
 ]
 
-html_logo = "_static/borneo-logo.png"
+html_logo = "_static/borneo-logo.svg"
 html_show_copyright = True
 html_show_sphinx = False
 
@@ -70,8 +70,8 @@ myst_enable_extensions = [
 
 
 html_theme_options = dict(
-    project_name = "Borneo-IoT Project",
-    logo = "borneo-logo.png",
+    project_name = "Borneo-IoT",
+    logo = "borneo-logo.svg",
     logo_alt = "Wagtail",
     logo_height = 59,
     logo_url = "/",
