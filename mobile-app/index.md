@@ -1,6 +1,15 @@
 (mobile-app)=
 # Mobile App
 
+```{figure} ./images/app.png
+:name: app-appearance
+:alt:  Borneo-IoT Mobile App
+:align: center
+:width: 50%
+
+The Borneo-IoT Mobile App
+```
+
 ## Features
 
 * Cross-platform app developed in Flutter, supports: Android/iOS/Windows/Linux/MacOS[^ios-macos]
