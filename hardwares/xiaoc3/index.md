@@ -27,6 +27,10 @@ Note that because the XIAO-ESP32C3 lacks the external peripherals present on our
 
 ## Build and flash firmware
 
+You can either build and flash the firmware locally using ESP-IDF, or use our web-based, open-source flasher.
+
+### Build and flash yourself
+
 Connect the XIAO-ESP32C3 with a USB cable, open an ESP-IDF terminal, and run:
 
 ```bash
@@ -36,4 +40,10 @@ idf.py flash # flash firmware
 idf.py monitor # view firmware logs
 ```
 
-After these steps you can connect the module with our mobile app.
+After flashing you can connect the module with our mobile app.
+
+### Use the web-based flasher (recommended for quick tests)
+
+If you don't want to set up the ESP-IDF toolchain locally, use our WebSerial-based open-source flasher at https://flasher.borneoiot.com. It runs in your browser and communicates with the XIAO-ESP32C3 over USB.
+
+The web flasher is ideal for quick testing and for users who prefer not to install the full ESP-IDF toolchain.
