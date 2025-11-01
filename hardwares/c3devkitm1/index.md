@@ -44,6 +44,6 @@ After flashing you can connect the module with our mobile app.
 
 ### Use the web-based flasher (recommended for quick tests)
 
-If you don't want to set up the ESP-IDF toolchain locally, use our WebSerial-based open-source flasher at [flasher.borneoiot.com](https://flasher.borneoiot.com). It runs in your browser and communicates with the `ESP32-C3-DevKitM-1` over USB.
+If you don't want to set up the ESP-IDF toolchain locally, you can use our WebSerial-based open-source flasher at [flasher.borneoiot.com](https://flasher.borneoiot.com). It runs in your browser and communicates with the `ESP32-C3-DevKitM-1` over USB.
 
 The web flasher is ideal for quick testing and for users who prefer not to install the full ESP-IDF toolchain.
