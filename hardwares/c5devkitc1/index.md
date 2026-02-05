@@ -35,7 +35,7 @@ Connect the board with a USB cable, open an ESP-IDF terminal, and run:
 
 ```bash
 cd fw/lyfi # change to LyFi firmware directory
-idf.py build -DPRODUCT_ID=bst/c5devkitc1 # build firmware
+idf.py -DPRODUCT_ID=bst/c5devkitc1 build # build firmware
 idf.py flash # flash firmware
 idf.py monitor # view firmware logs
 ```
