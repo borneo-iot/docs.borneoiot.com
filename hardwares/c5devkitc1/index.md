@@ -21,7 +21,7 @@ Note that because the `ESP32-C5-DevKitC-1` lacks the external peripherals presen
 | `GPIO10`     | LED PWM Channel 3    |        |
 | `GPIO26`     | LED PWM Channel 4    |        |
 | `GPIO25`     | LED PWM Channel 5    |        |
-| `GPIO27`     | Fan PWM output       | Fan PWM output, uses standard 25 kHz PWM  |
+| `GPIO23`     | Fan PWM output       | Fan PWM output, uses standard 25 kHz PWM  |
 | `GPIO28`     | User button          | This IO is shared with the board's "Boot" button.   |
 
 
