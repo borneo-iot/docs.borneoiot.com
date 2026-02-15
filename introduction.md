@@ -19,7 +19,7 @@ In the future, The Borneo-IoT Project will implement the following new hardwares
 ## Core Features
 
 ### 1. Multi-Channel LED Control
-- **PWM Dimming**: Supports 6 independent PWM channels, brightness range 0-4095
+- **PWM Dimming**: Supports 6+ (up to 10) independent PWM channels, brightness range 0-4095
 - **Color Correction**: Multiple correction algorithms available
   - Logarithmic correction
   - Linear correction
@@ -71,7 +71,6 @@ In the future, The Borneo-IoT Project will implement the following new hardwares
 
 ### 8. System Features
 - **Time Synchronization**: NTP network time synchronization
-- **Low Power Design**: Suitable for battery-powered scenarios
 - **Modular Architecture**: Easy to extend and customize
 - **Open Source Code**: Fully open source, community-driven development
 
@@ -94,5 +93,5 @@ In the future, The Borneo-IoT Project will implement the following new hardwares
     - `blc05mk3`: 5-channel LED driver PCB design (*Obsoleted*)
     - `blb08103`: 5-channel 63W LED lamp aluminum PCB design (*Obsoleted*)
     - `3d-models`: STEP format 3D models
-    - `datasheets`: The hardware specifications in PDF format[^3]
+    - `datasheets`: The hardware specifications in PDF format
 - `tools/`: Related scripts and tools
