@@ -16,6 +16,67 @@ In the future, The Borneo-IoT Project will implement the following new hardwares
 - A water circulation pump.
 - And more.
 
+## Core Features
+
+### 1. Multi-Channel LED Control
+- **PWM Dimming**: Supports 6 independent PWM channels, brightness range 0-4095
+- **Color Correction**: Multiple correction algorithms available
+  - Logarithmic correction
+  - Linear correction
+  - Exponential correction (default)
+  - Gamma correction
+  - CIE1931 correction
+- **Channel Configuration**: Each channel can be configured with name, color, and wavelength information
+
+### 2. Intelligent Operating Modes
+- **Manual Mode**: Direct control of LED color and brightness
+- **Scheduled Mode**: Time-based scheduling for LED states, supporting up to 48 schedule points
+- **Sunrise Simulation Mode**: Simulates natural sunrise/sunset processes
+
+### 3. Astronomical Simulation Features
+- **Sunrise/Sunset Calculation**: Precise calculation of sunrise, sunset, and solar noon times based on geographical location (latitude/longitude)
+- **Daily Brightness Curve**: Generates brightness variation curves for 13 key time points throughout the day
+- **Moonlight Simulation**: Calculates moon phase, illumination fraction, and moonrise/moonset times
+- **Timezone Support**: Automatic handling of timezone offsets and daylight saving time
+
+### 4. Adaptation and Optimization
+- **LED Acclimation Period**: Configurable acclimation period of 5-100 days to help organisms adapt to light changes
+- **Cloud Cover Simulation**: Optional cloud layer effects for added realism
+- **Geolocation Integration**: Supports GPS or manual location setting
+
+### 5. Thermal Management and Protection
+- **PID Temperature Control**: Intelligent fan control to maintain target temperature
+- **NTC Temperature Sensor**: Real-time monitoring of device temperature
+- **Fan Modes**:
+  - Manual Mode: Fixed fan power
+  - PID Mode: Automatic fan speed adjustment
+- **Protection Mechanisms**:
+  - Overheat Protection: Automatic power reduction when exceeding set temperature
+  - Overpower Protection: Prevents power overload
+
+### 6. Remote Control and Communication
+- **CoAP Protocol**: Lightweight IoT protocol based on CoAP/CBOR
+- **Remote Resources**:
+  - LED state control
+  - Operating mode switching
+  - Temperature monitoring
+  - Moonlight status query
+- **OTA Updates**: Over-the-air firmware upgrades for remote maintenance
+
+### 7. User Interaction
+- **Physical Button**: Local control button support
+- **Status Indication**: LED status feedback
+- **Preview Mode**: Temporary lighting function
+- **Disco Mode**: Entertainment lighting effects
+
+### 8. System Features
+- **Time Synchronization**: NTP network time synchronization
+- **Low Power Design**: Suitable for battery-powered scenarios
+- **Modular Architecture**: Easy to extend and customize
+- **Open Source Code**: Fully open source, community-driven development
+
+
+
 ## The directory structure of the Git repository
 
 - `client/`: Mobile app source code
