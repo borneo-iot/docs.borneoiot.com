@@ -4,7 +4,7 @@
 
 For users who have purchased hardware produced by us, the firmware is already built into the product, so there is no need to flash the firmware, and we provide OTA (Over-the-air) upgrades.
 
-For users trying with development boards, you can directly use our browser-based flashing tool at https://flasher.borneoiot.com without compiling the code.
+For users trying with development boards, you can directly use our [browser-based flashing tool](https://flasher.borneoiot.com) without compiling the code.
 
 ## Building from Source Code
 
