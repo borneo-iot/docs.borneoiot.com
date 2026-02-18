@@ -1,6 +1,14 @@
 # Python Interface for LyFi Compatible Devices
 
-TBD.
+Overview
+
+`LyfiCoapClient` is an asynchronous client for interacting with LyFi‑compatible devices over CoAP. It exposes high‑level helpers for reading device information, status, LyFi-specific telemetry, and controlling power/LEDs.
+
+Installation
+
+```bash
+pip install borneoiot
+```
 
 ## Usage
 
@@ -48,6 +56,5 @@ def main():
             await client.set_on_off(True)
 
 
-asyncio.get_event_loop().run_until_complete(main())
-
+asyncio.run(main())
 ```

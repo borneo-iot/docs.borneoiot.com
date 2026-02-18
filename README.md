@@ -4,7 +4,7 @@
 ## Install Dependencies
 
 ```bash
-pip install sphinx sphinx-wagtail-theme myst-parser sphinx-design sphinxcontrib-googleanalytics
+pip install sphinx sphinx-wagtail-theme myst-parser sphinx-design sphinxcontrib-googleanalytics roman
 ```
 
 ## Build and Serve Locally
