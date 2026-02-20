@@ -1,5 +1,5 @@
 (buce-hardware)=
-# Buce: 6-Channel LED PWM Controller
+# Buce: 6-Channel LED PWM Dimmer (BLC06MK1)
 
 ```{figure} ./images/blc06mk1.jpg
 :name: blc06mk1-appearance
@@ -10,15 +10,27 @@
 The Appearance of Buce Module
 ```
 
+## Overview
+
 Buce (Model BLC06MK1) is an innovative 6-channel All-in-One WiFi LED PWM Controller designed for enthusiasts who love DIY lighting projects, particularly in aquariums and photography. This versatile controller provides six independent PWM channels, allowing users to customize and control lighting effects wirelessly through our [open-source mobile app](mobile-app).
 
 With multi-segment dimming capabilities, Buce can simulate natural daylight transitions, such as sunrise and sunset, enhancing the visual experience in various settings.
 
-## What will people use it for?
+### What will people use it for?
 
 * Aquarium Lighting: Aquarium hobbyists can use Buce to simulate natural lighting environments, promoting the health and growth of aquatic plants or corals.
 * Photography Lighting: Photographers can set up dynamic lighting scenes to capture stunning images with precise control over brightness and color, perfect for studio or outdoor shoots.
 * Home Lighting: DIY enthusiasts can integrate Buce into their smart home systems to create personalized lighting ambiances for different rooms and occasions, with smooth transitions throughout the day.
+
+## Block Diagram
+
+```{figure} ./images/block-diagram.svg
+:name: buce-block-diagram
+:alt: Module Block Diagram
+:align: center
+:width: 80%
+Module Block Diagram
+```
 
 ## Features
 
@@ -51,6 +63,28 @@ With multi-segment dimming capabilities, Buce can simulate natural daylight tran
 Please checkout the following datasheets for more information about the hardware.
 
 * Buce (Model BLC06MK1) Datasheet: [`blc06mk1.pdf`](https://github.com/borneo-iot/borneo/blob/master/hw/datasheets/blc06mk1.pdf)
+
+## Usage
+
+### Pinout
+
+```{figure} ./images/gds.png
+:name: buce-gds
+:alt: Buce Pinout Diagram
+:align: center
+:width: 80%
+Pinout Diagram
+```
+
+### Typical Peripheral Circuit
+
+```{figure} ./images/peripherals.svg
+:name: buce-peripheral-circuit-diagram
+:alt: Typical Peripheral Circuit Diagram
+:align: center
+:width: 90%
+Typical Peripheral Circuit Diagram
+```
 
 ## Resources
 
