@@ -72,13 +72,18 @@ myst_enable_extensions = [
 html_theme_options = dict(
     project_name = "Borneo-IoT",
     logo = "borneo-logo.svg",
-    logo_alt = "Wagtail",
-    logo_height = 59,
+    logo_alt = "Borneo-IoT Project",
+    logo_height = 40,
     logo_url = "https://www.borneoiot.com",
-    logo_width = 45,
+    logo_width = 40,
     inherit = 'basic',
     github_url = "https://github.com/borneo-iot/docs.borneoiot.com/",
-    header_links = "Website|https://www.borneoiot.com, GitHub Project|https://github.com/borneo-iot/borneo",
+
+    header_links = ",".join([
+        "Website|https://www.borneoiot.com",
+        "GitHub Project|https://github.com/borneo-iot/borneo",
+        "Web Flash Installer|https://flasher.borneoiot.com",
+    ]),
 
     footer_links = ",".join([
         "About Us|https://www.borneoiot.com/about/",
