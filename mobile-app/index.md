@@ -12,7 +12,7 @@ The Borneo-IoT Mobile App
 
 ## Features
 
-* Cross-platform app developed in Flutter, supports: Android/iOS/Windows/Linux/MacOS[^ios-macos]
+* Cross-platform app developed in Flutter, supports: Android/iOS/Windows/Linux/MacOS
 * Scene management, allowing switching between different locations to control different devices
 * Devices grouping
 * ESPTouch protocol based WiFi provisioning
@@ -29,8 +29,6 @@ The Borneo-IoT Mobile App
 :::{note}
 The AppStore/PlayStore and APK downloads are not available yet, you need to compile and run from the source code.
 :::
-
-[^ios-macos]: I do not own any Apple devices, so iOS and MacOS support is in theory and untested.
 
 ## Videos
 

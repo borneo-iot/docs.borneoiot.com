@@ -11,6 +11,15 @@ Note that because the XIAO-ESP32C3 lacks the external peripherals present on our
 2. **Fan PWM output**: A PWM output for fan. Because the NTC thermistor support circuit is not present, you can only set the fan PWM duty manually in the app; the PID closed-loop automatic fan-speed control provided by our dedicated controller is not available.
 3. **User button**: A user button for temporary light-on (short press) and Wi‑Fi reset (long press). This reuses the XIAO-ESP32C3's built-in "Boot" button, or you can wire an external button from the module's D9 pin to GND to use it outside the board.
 
+```{figure} ./images/borneo-xiaoc3-wiring-cv.png
+:name: xiaoc3-wiring-diagram
+:alt:  Constant Voltage Wiring Diagram
+:align: center
+:width: 60%
+
+Constant Voltage Wiring Diagram
+```
+
 ## Pinout
 
 | XIAO-ESP32C3 pin | BorneoIoT function | Notes |

@@ -15,6 +15,4 @@ flutter pub get
 flutter run
 ```
 
-Since the app uses the Flutter cross-platform framework, it can also run on Windows, Linux and MacOS, though it has not been adapted for landscape screen.
-
-I do not own any Apple devices, so iOS and MacOS support is theoretical and untested.
+Since the app uses the Flutter cross-platform framework, it can also run on Android, iOS, Windows, Linux and MacOS, though it has not been adapted for landscape screen.
