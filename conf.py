@@ -74,17 +74,16 @@ html_theme_options = dict(
     logo = "borneo-logo.svg",
     logo_alt = "Wagtail",
     logo_height = 59,
-    logo_url = "/",
+    logo_url = "https://www.borneoiot.com",
     logo_width = 45,
+    inherit = 'basic',
     github_url = "https://github.com/borneo-iot/docs.borneoiot.com/",
-
     header_links = "Website|https://www.borneoiot.com, GitHub Project|https://github.com/borneo-iot/borneo",
 
-    footer_links = "",
-    #, ",".join([
-    #    "About Us|http://example.com/",
-    #    "Contact|http://example.com/contact",
-    #    "Legal|http://example.com/dev/null",
-    #]),
+    footer_links = ",".join([
+        "About Us|https://www.borneoiot.com/about/",
+        "Contact|https://www.borneoiot.com/about/#contactus",
+        "Privacy Policy|https://www.borneoiot.com/privacy-policy/",
+    ]),
 
 )
