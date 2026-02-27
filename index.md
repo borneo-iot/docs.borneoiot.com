@@ -18,19 +18,31 @@ Borneo-IoT project is a commercial-grade, highly customizable open-source smart 
 :::{grid-item-card} {octicon}`tools;1.5em;sd-mr-1` Getting Started
 Interested? Please follow the documentation below to learn how to DIY your own WiFi aquarium LED like a pro.
 +++
-[Learn more »](getting-started)
+```{button-link} getting-started/quick-start
+:color: primary
+:shadow:
+Learn more »
+```
 :::
 
 :::{grid-item-card} {octicon}`book;1.5em;sd-mr-1` Hardware Datasheets
 The hardware specifications in PDF format.
 +++
-[View/download »](https://github.com/borneo-iot/borneo/tree/master/hw/datasheets)
+```{button-link} https://github.com/borneo-iot/borneo/tree/master/hw/datasheets
+:color: primary
+:shadow:
+View/download »
+```
 :::
 
 :::{grid-item-card} {octicon}`device-mobile;1.5em;sd-mr-1` Mobile App
 This project comes with an open source cross-platform App to control the devices.
 +++
-[Learn more »](mobile-app)
+```{button-link} mobile-app
+:color: primary
+:shadow:
+Learn more »
+```
 :::
 
 ::::

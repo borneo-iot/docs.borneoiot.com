@@ -1,3 +1,4 @@
+(getting-started-app)=
 # Mobile App
 
 ## Building from Source
