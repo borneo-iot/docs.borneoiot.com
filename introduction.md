@@ -8,7 +8,7 @@ Currently, Borneo IoT Project includes the following components:
 2. A wireless 6-channel LED PWM embedded controller module (core board) with model ["BLC06MK1"](#blc06-hardware) and corresponding open-source firmware.
 3. A 5-channel LED aluminum PCB reference design for BLC06MK1 with model ["BLB08103"](#blb08103-hardware), which includes red, green, blue, white, and ultraviolet UVA (or purple) LED channels, with a nominal power of 57W.
 
-In the future, The Borneo-IoT Project will implement the following new hardwares and software:
+In the future, The Borneo-IoT Project will implement the following new hardware and software:
 
 - A 10-channel LED PWM embedded controller module.
 - A wireless water pH and temperature monitor.
