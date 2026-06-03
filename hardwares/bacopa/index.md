@@ -48,13 +48,13 @@ Pinout Diagram
 
 | Port# | Name | Type | Description |
 | :----: | :--- | :--- | :---------- |
-| 1 | Power | 3.81 mm Screw Terminal | 6–36 V power supply positive and negative inputs; terminal rated for up to 10 A |
-| 2 | PWM Signal Output | 2.0 mm Board-to-Board Connector | Optional parallel PWM signal output for daisy-chaining multiple driver modules |
-| 3 | Constant-Current Power Output | 3.81 mm Screw Terminal | Constant-current output for driving LED strings; connect one independent LED string circuit per group |
-| 4 | 2-Wire Fan Drive Output | 2.0 mm Board-to-Board Connector | 12 V two-wire fan speed-control drive output; direct fan connection supported |
-| 5 | PWM Fan Output | 2.0 mm Board-to-Board Connector | 12 V four-wire fan power output; direct PWM fan connection supported |
-| 6 | NTC Input | 2.0 mm Board-to-Board Connector | Connection for 10 kΩ, B3950 NTC thermistor |
-| 7 | Button Input | 2.0 mm Board-to-Board Connector | Optional button for temporary lighting toggle and long-press network reconfiguration |
+| ① | Power | 3.81 mm Screw Terminal | 6–36 V power supply positive and negative inputs; terminal rated for up to 10 A |
+| ② | PWM Signal Output | 2.0 mm Board-to-Board Connector | Optional parallel PWM signal output for daisy-chaining multiple driver modules |
+| ③ | Constant-Current Power Output | 3.81 mm Screw Terminal | Constant-current output for driving LED strings; connect one independent LED string circuit per group |
+| ④ | 2-Wire Fan Drive Output | 2.0 mm Board-to-Board Connector | 12 V two-wire fan speed-control drive output; direct fan connection supported |
+| ⑤ | PWM Fan Output | 2.0 mm Board-to-Board Connector | 12 V four-wire fan power output; direct PWM fan connection supported |
+| ⑥ | NTC Input | 2.0 mm Board-to-Board Connector | Connection for 10 kΩ, B3950 NTC thermistor |
+| ⑦ | Button Input | 2.0 mm Board-to-Board Connector | Optional button for temporary lighting toggle and long-press network reconfiguration |
 
 ### Typical Peripheral Circuit
 
